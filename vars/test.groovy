@@ -8,7 +8,7 @@ def call()
         stage("test")
         {
             def obj = new Build()
-            obj.buildNow()
+            println obj.buildNow()
         }
     }
 }
